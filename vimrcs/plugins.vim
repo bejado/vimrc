@@ -9,6 +9,7 @@ call vundle#begin('~/.vim_runtime/bundle')
 Plugin 'VundleVim/Vundle.vim'
 
 " Plugins here
+Plugin 'chriskempson/base16-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
