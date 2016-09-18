@@ -10,6 +10,11 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Plugins here
 Plugin 'chriskempson/base16-vim'
+Plugin 'mileszs/ack.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jlanzarotta/bufexplorer'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'tpope/vim-commentary'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
