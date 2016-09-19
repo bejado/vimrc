@@ -15,6 +15,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jlanzarotta/bufexplorer'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-commentary'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
