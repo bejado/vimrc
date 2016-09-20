@@ -2,9 +2,10 @@
 :set number
 
 " Set a custom color scheme
+let base16colorspace=256
+let g:solarized_base16=1
 set background=dark
 colorscheme base16-solarized-dark
-let g:airline_theme="papercolor"
 
 " Make git gutter realtime
 set updatetime=750
