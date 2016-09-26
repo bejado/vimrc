@@ -44,3 +44,7 @@ map <Leader>a :call RunAllSpecs()<CR>
 " Use ZSH
 set shell=zsh
 
+" Allow project-specific vimrcs
+set exrc
+set secure
+
