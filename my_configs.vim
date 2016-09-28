@@ -4,8 +4,7 @@
 " Set a custom color scheme
 let base16colorspace=256
 let g:solarized_base16=1
-set background=dark
-colorscheme base16-solarized-dark
+source ~/.vimrc_background
 
 " Make git gutter realtime
 set updatetime=750
