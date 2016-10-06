@@ -2,8 +2,8 @@
 :set number
 
 " Set a custom color scheme
-let base16colorspace=256
-let g:solarized_base16=1
+" let base16colorspace=256
+" let g:solarized_base16=1
 source ~/.vimrc_background
 
 " Make git gutter realtime
@@ -46,4 +46,13 @@ set shell=zsh
 " Allow project-specific vimrcs
 set exrc
 set secure
+
+" Move cursor by display lines when wrapping
+noremap  <buffer> <silent> k gk
+noremap  <buffer> <silent> j gj
+noremap  <buffer> <silent> 0 g0
+noremap  <buffer> <silent> $ g$
+
+" Use relative numbers
+set relativenumber
 
