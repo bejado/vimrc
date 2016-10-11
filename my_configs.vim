@@ -9,11 +9,6 @@ source ~/.vimrc_background
 " Make git gutter realtime
 set updatetime=750
 
-" Hulu filetypes
-au BufNewFile,BufRead *.scss set filetype=css
-au BufNewFile,BufRead *.hbs,*.hbs.erb set filetype=html
-au BufNewFile,BufRead *.json_builder set filetype=ruby
-
 " Use . on multiple lines in visual mode
 vnoremap . :norm.<CR>
 
