@@ -6,17 +6,11 @@
 " let g:solarized_base16=1
 source ~/.vimrc_background
 
-" Make git gutter realtime
-set updatetime=750
-
 " Use . on multiple lines in visual mode
 vnoremap . :norm.<CR>
 
 " Scss folding
 autocmd BufRead,BufNewFile *.css,*.scss,*.less setlocal foldmethod=marker foldmarker={,}
-
-" Turn on GitGutter (with line highlighting) by default
-autocmd VimEnter * GitGutterEnable
 
 " Turn off auto-commenting
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
