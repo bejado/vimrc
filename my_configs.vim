@@ -45,3 +45,7 @@ noremap  <buffer> <silent> $ g$
 " Use relative numbers
 set relativenumber
 
+" Set shiftwidth based on filetype
+autocmd FileType lua setlocal shiftwidth=2 tabstop=2
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+
