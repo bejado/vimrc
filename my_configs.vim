@@ -2,7 +2,7 @@
 :set number
 
 " Set a custom color scheme
-" let base16colorspace=256
+let base16colorspace=256
 " let g:solarized_base16=1
 source ~/.vimrc_background
 
