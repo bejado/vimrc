@@ -49,3 +49,6 @@ set relativenumber
 autocmd FileType lua setlocal shiftwidth=2 tabstop=2
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 
+" Set default textwidth to 0 (disable word wrapping)
+set tw=0
+
