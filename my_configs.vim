@@ -55,3 +55,6 @@ set tw=0
 " Make all yanking/deleting operations automatically copy to the system clipboard
 set clipboard=unnamed
 
+" Use <leader>r to view current buffer in NERDTree
+map <leader>r :NERDTreeFind<cr>
+
