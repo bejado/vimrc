@@ -52,3 +52,6 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 " Set default textwidth to 0 (disable word wrapping)
 set tw=0
 
+" Make all yanking/deleting operations automatically copy to the system clipboard
+set clipboard=unnamed
+
