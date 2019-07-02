@@ -58,3 +58,6 @@ set clipboard=unnamed
 " Use <leader>r to view current buffer in NERDTree
 map <leader>r :NERDTreeFind<cr>
 
+" Use 100 column width
+set tw=100
+
