@@ -22,7 +22,10 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'godlygeek/csapprox'
 Plugin 'tpope/vim-surround'
-Plugin 'Valloric/YouCompleteMe'
+
+if has('python')
+    Plugin 'Valloric/YouCompleteMe'
+endif
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
