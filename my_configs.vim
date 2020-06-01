@@ -49,15 +49,11 @@ set relativenumber
 autocmd FileType lua setlocal shiftwidth=2 tabstop=2
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 
-" Set default textwidth to 0 (disable word wrapping)
-set tw=0
+" Use 100 column width
+set tw=100
 
 " Make all yanking/deleting operations automatically copy to the system clipboard
 set clipboard=unnamed
 
 " Use <leader>r to view current buffer in NERDTree
 map <leader>r :NERDTreeFind<cr>
-
-" Use 100 column width
-set tw=100
-
