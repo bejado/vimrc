@@ -183,4 +183,7 @@ set updatetime=750
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => YouCompleteMe
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:ycm_auto_hover = ""
+
 nnoremap <leader>gh :YcmCompleter GoTo<cr>
+noremap <leader>gr :YcmCompleter GoToReferences<cr>
