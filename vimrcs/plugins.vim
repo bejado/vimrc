@@ -23,7 +23,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'godlygeek/csapprox'
 Plugin 'tpope/vim-surround'
 
-if has('python')
+if has('python3')
     Plugin 'Valloric/YouCompleteMe'
 endif
 
