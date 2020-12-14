@@ -184,6 +184,7 @@ set updatetime=750
 " => YouCompleteMe
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ycm_auto_hover = ""
+let g:ycm_autoclose_preview_window_after_completion = 1
 
 nnoremap <leader>gh :YcmCompleter GoTo<cr>
 noremap <leader>gr :YcmCompleter GoToReferences<cr>
