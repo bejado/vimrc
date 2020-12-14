@@ -6,6 +6,11 @@ let base16colorspace=256
 " let g:solarized_base16=1
 source ~/.vimrc_background
 
+" gui colors if running iTerm
+if $TERM_PROGRAM =~ "iTerm"
+    set termguicolors
+endif
+
 " Use . on multiple lines in visual mode
 vnoremap . :norm.<CR>
 
