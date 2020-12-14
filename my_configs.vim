@@ -45,8 +45,10 @@ set relativenumber
 autocmd FileType lua setlocal shiftwidth=2 tabstop=2
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 
-" Use 100 column width
+" Use 100 column width, don't automatically wrap for text-based files.
 set tw=100
+autocmd bufreadpre *.txt setlocal fo-=t
+autocmd bufreadpre *.md setlocal fo-=t
 
 " Make all yanking/deleting operations automatically copy to the system clipboard
 set clipboard=unnamed
