@@ -7,11 +7,11 @@
 """"""""""""""""""""""""""""""
 " => Ack plugin
 """"""""""""""""""""""""""""""
-let g:ackprg = 'ag --vimgrep --smart-case'
-cnoreabbrev ag Ack
-cnoreabbrev aG Ack
-cnoreabbrev Ag Ack
-cnoreabbrev AG Ack
+" let g:ackprg = 'ag --vimgrep --smart-case'
+" cnoreabbrev ag Ack
+" cnoreabbrev aG Ack
+" cnoreabbrev Ag Ack
+" cnoreabbrev AG Ack
 
 
 """"""""""""""""""""""""""""""
@@ -43,9 +43,9 @@ nmap <c-P> <Plug>yankstack_substitute_newer_paste
 """"""""""""""""""""""""""""""
 let g:ctrlp_working_path_mode = 0
 
-let g:ctrlp_map = '<c-f>'
-map <leader>j :CtrlP<cr>
-map <c-b> :CtrlPBuffer<cr>
+" let g:ctrlp_map = '<c-f>'
+" map <leader>j :CtrlP<cr>
+" map <c-b> :CtrlPBuffer<cr>
 
 let g:ctrlp_max_height = 20
 let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee\|cmake-build\|out\|dist-'
@@ -187,3 +187,11 @@ let g:ycm_auto_hover = ""
 
 nnoremap <leader>gh :YcmCompleter GoTo<cr>
 noremap <leader>gr :YcmCompleter GoToReferences<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => fzf
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <c-f> :GFiles<cr>
+
+" Search for selected text with <Leader>g
+vnoremap <Leader>g y:Ag <C-R>"<CR>
