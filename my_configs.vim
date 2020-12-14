@@ -55,3 +55,10 @@ set clipboard=unnamed
 
 " Use <leader>r to view current buffer in NERDTree
 map <leader>r :NERDTreeFind<cr>
+
+" Use glsl syntax highlighting for .vs, .fs, and .mat files.
+augroup filetypedetect
+    autocmd! BufNewFile,BufRead *.fs  setfiletype glsl
+    autocmd! BufNewFile,BufRead *.vs  setfiletype glsl
+    autocmd! BufNewFile,BufRead *.mat setfiletype glsl
+augroup END

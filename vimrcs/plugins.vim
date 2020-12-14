@@ -22,6 +22,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'godlygeek/csapprox'
 Plugin 'tpope/vim-surround'
+Plugin 'tikhomirov/vim-glsl'
 
 if has('python3')
     Plugin 'Valloric/YouCompleteMe'
